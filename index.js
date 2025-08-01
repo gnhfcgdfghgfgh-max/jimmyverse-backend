@@ -11,7 +11,7 @@ app.use(bodyParser.urlencoded({ extended: true }));
 app.get('/', (req, res) => {
   res.send('✅ Jimmyverse Backend is running!');
 });
-
+sendWhatsApp("✅ Jimmyverse is live and sending WhatsApp messages.");
 app.listen(PORT, () => {
   console.log(`✅ Server live on port ${PORT}`);
 });
