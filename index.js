@@ -1,7 +1,7 @@
 const express = require('express');
 const bodyParser = require('body-parser');
 require('dotenv').config();
-
+const sendWhatsApp = require('./callmebot-sender');
 const app = express();
 const PORT = process.env.PORT || 3000;
 
