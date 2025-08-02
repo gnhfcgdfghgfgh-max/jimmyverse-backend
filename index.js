@@ -24,8 +24,6 @@ app.post('/payhip-webhook', (req, res) => {
 
   res.sendStatus(200);
 });
-  // You can customize what happens here
-  // For now we’ll just confirm it's working
   res.sendStatus(200);
 });
 sendWhatsApp("✅ Jimmyverse is live and sending WhatsApp messages.");
